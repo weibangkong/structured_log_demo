@@ -9,8 +9,8 @@ public class StructuredLogDemo {
 
     public static void main(String[] args) {
         // 设置全局 MDC 信息
-        MDC.put("traceId", "trace-" + System.currentTimeMillis());
-        MDC.put("spanId", "span-" + System.currentTimeMillis());
+        MDC.put("traceId", "trace-" + 1111111);
+        MDC.put("spanId", "span-" + 123456);
 
         MDC.put("parentId", "parent-" + System.currentTimeMillis());
         MDC.put("sampled", "true");

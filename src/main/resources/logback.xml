@@ -14,7 +14,8 @@
             <includeMdcKeyName>thread</includeMdcKeyName>
             <includeMdcKeyName>traceId</includeMdcKeyName>
             <includeMdcKeyName>spanId</includeMdcKeyName>
-            <includeMdcKeyName>level</includeMdcKeyName>
+<!--            level不需要通过mdc，但是倒是想去掉level_value-->
+<!--            <includeMdcKeyName>level</includeMdcKeyName>-->
             <includeMdcKeyName>message</includeMdcKeyName>
 
             <includeMdcKeyName>exception</includeMdcKeyName>
@@ -43,7 +44,6 @@
             <includeMdcKeyName>thread</includeMdcKeyName>
             <includeMdcKeyName>traceId</includeMdcKeyName>
             <includeMdcKeyName>spanId</includeMdcKeyName>
-            <includeMdcKeyName>level</includeMdcKeyName>
             <includeMdcKeyName>message</includeMdcKeyName>
 
             <includeMdcKeyName>exception</includeMdcKeyName>

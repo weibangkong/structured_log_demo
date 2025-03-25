@@ -11,17 +11,17 @@ public class UserService {
 
     public void processUser(String name, int age) {
         // 设置 MDC 信息
-        MDC.put("method", "processUser");
-        MDC.put("class", "UserService");
-        MDC.put("traceId", "trace-" + UUID.randomUUID().toString());
-        MDC.put("spanId", "span-" + UUID.randomUUID().toString());
-        MDC.put("parentId", "parent-" + UUID.randomUUID().toString());
-        MDC.put("sampled", "true");
-        MDC.put("flags", "0");
-        MDC.put("priority", "1");
-        MDC.put("category", "application");
-        MDC.put("userName", name);
-        MDC.put("userAge", String.valueOf(age));
+//        MDC.put("method", "processUser");
+//        MDC.put("class", "UserService");
+        MDC.put("traceId", "trace-" + 1111111);
+        MDC.put("spanId", "span-" + 123456);
+//        MDC.put("parentId", "parent-" + UUID.randomUUID().toString());
+//        MDC.put("sampled", "true");
+//        MDC.put("flags", "0");
+//        MDC.put("priority", "1");
+//        MDC.put("category", "application");
+//        MDC.put("userName", name);
+//        MDC.put("userAge", String.valueOf(age));
 
         try {
             // 记录开始处理的信息

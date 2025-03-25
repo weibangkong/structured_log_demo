@@ -24,10 +24,6 @@ public class LogEvent {
      */
     private String spanId;
     /**
-     * 日志级别
-     */
-    private String level;
-    /**
      * 日志内容
      */
     private String message;
