@@ -8,6 +8,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
+/**
+ * 日志切面
+ *  切面的作用是处理MDC，向MDC容器中添加一部分参数，不清楚一些现成的结构化日志框架是不是也是这样实现的,可能因为
+ */
 @Aspect
 @Component
 public class LogAspect {
